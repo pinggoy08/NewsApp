@@ -1,3 +1,7 @@
+// This is a draft codes it does not affect the project
+
+
+
 function getNewsCountry(){
     fetch('https://newsapi.org/v2/top-headlines?country='+selectCountry.value+'&apiKey=09f3023e7b154f1582dbf07379774e0a')
      .then(response =>{
